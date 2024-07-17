@@ -1,0 +1,158 @@
+.DD{padding-left: 12px;
+  
+}
+.card {
+  width:290PX;
+  height: 254px;
+  padding: 0 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.card > * {
+  margin: 0;
+  width: 100%;
+}
+
+.card__title {
+  font-size: 23px;
+  font-weight: 900;
+  color: #333;
+}
+
+.card__content {
+  font-size: 13px;
+  line-height: 18px;
+  color: #333;
+}
+
+.card__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__form input {
+  margin-top: 10px;
+  outline: 0;
+  background: rgb(255, 255, 255);
+  box-shadow: transparent 0px 0px 0px 1px inset;
+  padding: 0.6em;
+  border-radius: 14px;
+  border: 1px solid #333;
+  color: black;
+}
+
+.card__form button {
+  border: 0;
+  background:plum;
+  color: black;
+  padding: 0.68em;
+  border-radius: 14px;
+  font-weight: bold;
+}
+
+.sign-up:hover {
+  opacity: 0.8;
+} 
+
+  .col-sm-4 a{
+  color:orange;
+  }
+  button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color:grey;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: grey;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+   .btn {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color:plum;
+    transition: 0.5s ease;
+  }
+  
+  .btn:hover {
+    color: wheat;
+    transition-delay: 0.5s;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color:plum;
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  
+
+
+   
